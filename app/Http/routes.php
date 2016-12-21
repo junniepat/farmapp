@@ -11,7 +11,4 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-// fhjskjhskjhkd
+Route::get('/', 'PagesController@getIndex');
