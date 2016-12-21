@@ -12,3 +12,7 @@
 */
 
 Route::get('/', 'PagesController@getIndex');
+Route::get('/listproducts', 'PagesController@getListProducts');
+Route::get('/signup', 'PagesController@getSignUp');
+Route::get('/settings', 'PagesController@getSettings');
+Route::get('/dashboard', 'PagesController@getDashboard');

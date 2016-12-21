@@ -6,14 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Fresh Citi- Log in</title>
-    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/all.css">
     <!-- FONT
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
     <!-- Favicon
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="icon" type="image/png" href="images/favicon.png">
-    <link rel="stylesheet" href="css/all.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -66,7 +65,7 @@
           <div class="_valor-pull-right">
             <li><a href="#home">My Products</a></li>
             <li><a href="#home">List Products</a></li>
-            <!--<li class="_valorChip">
+            <li class="_valorChip">
               <img src="images/pat.jpg" alt="Person" width="40" height="40">
               John Doe
               <ul class="_valordroppop">
@@ -74,41 +73,46 @@
                 <li>Settings</li>
                 <li>Log Out</li>
               </ul>
-            </li>-->
+            </li>
           </div>
           <li class="icon">
             <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
           </li>
         </ul>
       </div>
+      
       <div class="_valorContainer">
-        <div class="twelve _valorGrids"
-          style="margin-top:80px;background:rgba(225,225,225,0.3); padding:30px; color:#fff; text-align:center; min-height:210px;">
-          <h1>Nigeria Online Fresh food store</h1>
-          <hr>
-          <div class="_valorContainer">
-            <div class="nine _valorGrids m-y-b">
-              <input class="_valor-full-width _valorTextmute" placeholder="Search By Product or Farm" name="products" id="products" type="text">
-            </div>
-            <div class="three _valorGrids m-y-b">
-            <button class="_valorBtn _valorBtn-blue">Search</button></div>
-          </div></div>
+        <div class="twelve _valorGrids" style="margin-top:80px;background:rgba(225,225,225,0.3); min-height:210px; color:#333;">
+          <div class="three _valorGrids _valor-pull-left">
+            <img src="images/pat.jpg" alt="Person" width="210px" height="220px" class="_valorImgRect">
+          </div>
+          <div class="eight _valorGrids _valor-pull-left"
+            style="padding:10px; color:#fff; text-shadow:0.5px 0.5px #ccc min-height:220px;">
+            <h3>John Doe  <span class="_valorTag _valor-pull-right">Profile 48% Complete</span></h3>
+            Business Name<br>
+            location<br>
+            Email
+            <br>Phone
+          </div>
+          
         </div></div>
       </div>
       <div class="_valor-full-width">
         <div class="twelve _valorGrids" style="background:brown; min-height:190px; margin-top:-10px;">
           <div class="six _valorGrids" style=" height:100%; width:50%;">
-          <img src="images/imagad.jpg" height="100%" width="100%" /></div>
+          <img src="images/imagad.jpg" height="100%" width="100%"></div>
           <div class="six _valorGrids" style=" height:100%; width:50%;">
-          <img src="images/imagad.jpg" height="100%" width="100%" /></div>
+          <img src="images/imagad.jpg" height="100%" width="100%"></div>
         </div>
         <div class="twelve">
           <ul class="tab">
             <li><a href="javascript:void(0)" class="tablinks active" onclick="openCity(event, 'products')">Products</a></li>
+            
           </ul>
           <div class="_valor-full-width">
             <div class="twelve _valorHeading" style=" margin-bottom20px;">Best</div>
             <div class="boxed">
+              
               <!--cards-->
               <div class="_valorCard">
                 <div class="contentManage">Description of product is contained
@@ -116,14 +120,17 @@
                 </div>
                 <img src="images/food-healthy-vegetables-potatoes-large.jpg" alt="Avatar" style="width:100%">
                 <div class="_valorCard-content">
+                  
                   <div class="_valor-pull-left twelve _valorGrids"> Tot 4-Piece Feeding Set, Greene
                     <span class="_valorTag _valor-pull-right">Fresh</span></div>
                     <br>
-                    <strong>$16.40 $20.50 </strong> <br> Bisi Farms
+                    <strong>$16.40 $20.50 </strong>
                   </div>
                   <div class="_valorCard-bottom">
-                    <button class="_valorBtn" title="Add Product to Cart">Cart</button>
-                    <a>compare</a>     <a>wishlist</a>
+                    
+                    <a class="_valorBtn" title="Add Product to Cart">Cart</a>
+                    <a>compare</a>
+                    <a>wishlist</a>
                   </div>
                 </div>
                 <!--cards-->
@@ -133,13 +140,15 @@
                   </div>
                   <img src="images/food-healthy-vegetables-potatoes-large.jpg" alt="Avatar" style="width:100%">
                   <div class="_valorCard-content">
+                    
                     <div class="_valor-pull-left twelve _valorGrids"> Tot 4-Piece Feeding Set, Greene
                       <span class="_valorTag _valor-pull-right">Fresh</span></div>
                       <br>
-                      <strong>$16.40 $20.50 </strong> <br> Bisi Farms
+                      <strong>$16.40 $20.50 </strong>
                     </div>
                     <div class="_valorCard-bottom">
-                      <button class="_valorBtn" title="Add Product to Cart">Cart</button>
+                      
+                      <a class="_valorBtn" title="Add Product to Cart">Cart</a>
                       <a>compare</a>
                       <a>wishlist</a>
                     </div>
@@ -151,17 +160,22 @@
                     </div>
                     <img src="images/food-healthy-vegetables-potatoes-large.jpg" alt="Avatar" style="width:100%">
                     <div class="_valorCard-content">
+                      
                       <div class="_valor-pull-left twelve _valorGrids"> Tot 4-Piece Feeding Set, Greene
                         <span class="_valorTag _valor-pull-right">Fresh</span></div>
                         <br>
-                        <strong>$16.40 $20.50 </strong> <br> Bisi Farms
+                        <strong>$16.40 $20.50 </strong>
                       </div>
                       <div class="_valorCard-bottom">
-                        <button class="_valorBtn" title="Add Product to Cart">Cart</button>
+                        
+                        <a class="_valorBtn" title="Add Product to Cart">Cart</a>
                         <a>compare</a>
                         <a>wishlist</a>
                       </div>
                     </div>
+                    
+                    
+                    
                   </div></div>
                   <div class="_valorClearFix"></div>
                   <div class="_valor-full-width _valorFeatured _valorTextcenter"
@@ -178,12 +192,14 @@
                       </div>
                       <img src="images/food-healthy-vegetables-potatoes-large.jpg" alt="Avatar" style="width:100%">
                       <div class="_valorCard-content">
+                        
                         <span class="_valor-pull-left"> Tot 4-Piece Feeding Set, Greene <span class="_valorTag _valor-pull-right">Fresh</span></span>
                         <br>
-                        <strong>$16.40 $20.50 </strong> <br> Bisi Farms
+                        <strong>$16.40 $20.50 </strong>
                       </div>
                       <div class="_valorCard-bottom">
-                        <button class="_valorBtn" title="Add Product to Cart">Cart</button>
+                        
+                        <a class="_valorBtn" title="Add Product to Cart">Cart</a>
                         <a>compare</a>
                         <a>wishlist</a>
                       </div></div>
@@ -194,22 +210,28 @@
                         </div>
                         <img src="images/food-healthy-vegetables-potatoes-large.jpg" alt="Avatar" style="width:100%">
                         <div class="_valorCard-content">
+                          
                           <span class="_valor-pull-left"> Tot 4-Piece Feeding Set, Greene <span class="_valorTag _valor-pull-right">Fresh</span></span>
                           <br>
-                          <strong>$16.40 $20.50 </strong> <br> Bisi Farms
+                          <strong>$16.40 $20.50 </strong>
                         </div>
                         <div class="_valorCard-bottom">
+                          
                           <a class="_valorBtn" title="Add Product to Cart">Cart</a>
                           <a>compare</a>
                           <a>wishlist</a>
                         </div></div>
                       </div>
+                      
+                      
                     </div>
                   </div>
+                  
                   <div class="_valorClearFix"></div>
                 </div>
               </div>
             </div>
+            
             <div class="_valor-full-width _valorFooter" style="min-height:310px;">
               <div class="three _valorGrids">
                 <ul class="_valorFooterLinks">
